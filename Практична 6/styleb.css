@@ -1,0 +1,88 @@
+.pik{
+    color: rgb(215, 230, 10);
+    border: 2px solid black;
+    background-color: blue;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+  
+  }
+  .pik:hover{
+color: rgb(55, 0, 255);
+background-color: magenta;
+  }
+.pik:active{
+background-color: yellow;
+color: blue;
+}
+div#co{
+  background-color: rgb(6, 67, 250);
+  color: rgb(205, 255, 6);
+}
+div#c{
+  background-color: darkred;
+  color: rgb(191, 255, 0);
+}
+div#col{
+  background-color :black;
+  color: white;
+}
+div#colo{
+  background-color: rgb(228, 248, 2);
+  color: black;
+}
+div#color{
+  background-color: #74E81C;
+  color: #0A059D;
+}
+#bio {
+  text-align: center;
+  font-size: 22px;
+}
+#back {
+  font-style: italic;
+}
+#page{
+  text-align: center;
+}
+.row{
+  font-size: 120%;
+ 
+}
+h1 {
+  font-size: 144%;
+}
+#backto{
+  font-weight:bold ;
+}
+#up{
+  text-transform: uppercase;
+}
+div{
+  border: 1px solid red;
+}
+
+.row > div:first-child {
+  background-color: tomato;
+  color:#131629;
+}
+
+.row > div:nth-child(2) {
+  background-color: rebeccapurple;
+  color: yellow;
+}
+
+.row > div:nth-child(3) {
+  background-color: gold;
+}
+
+.row > div:nth-child(4) {
+  background-color: aquamarine;
+  color: blue;
+}
+
+.row > div:last-child {
+  background-color: #413651;
+  color: orange
+}
